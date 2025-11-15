@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head><title>DOM!!!</title></head>
+    <body>
+        <h2>Document Object Model</h2>
+        <form onsubmit="validate(event)">
+        <fieldset>
+            <label>Name:</label>
+            <input type="text" id="name" name="Name"><br><br>
+            <label>Date of Birth:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label>Contact number:</label>
+            <input type="password" id="password" 
+            name="Contact number " id="number" minlength="10"><br><br>  
+            <label>gender</label><br>
+            <input type="radio" id="gender" name="gender" value="female">female<br>
+            <input type="radio" id="gender" name="gender" value="male">male<br>
+            <button type="submit">login </button> <br><br> 
+        </fieldset>
+    </form>
+    
+    <div id="message"></div>
+
+    <script src="project.js">
+    var text = document.getElementById("one").innerHTML;
+    alert("This is" + text)
+    </script>
+
+    </body>
+
+</html>
